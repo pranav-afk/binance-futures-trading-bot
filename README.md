@@ -87,5 +87,3 @@ Includes:
 ## Security Notes
 - API keys are stored in `.env`  
 - `.env` is excluded via `.gitignore`  
-- Do NOT commit API keys to GitHub  
-
