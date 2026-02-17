@@ -16,30 +16,6 @@ The bot logs all order requests and responses and provides a structured CLI work
 
 ---
 
-## Project Structure
-
-binance_futures_bot/
-│
-├── main.py                 # CLI entry point  
-├── config/  
-│   └── settings.py         # Loads API keys from .env  
-│
-├── services/  
-│   └── order_service.py    # Order execution logic  
-│
-├── utils/  
-│   └── logger.py           # Logging configuration  
-│
-├── logs/  
-│   └── bot.log             # Order execution logs  
-│
-├── .env                    # API keys (not pushed to GitHub)  
-├── .gitignore  
-├── requirements.txt  
-└── README.md  
-
----
-
 ## Setup Instructions
 
 1. Clone the repository  
@@ -112,3 +88,4 @@ Includes:
 - API keys are stored in `.env`  
 - `.env` is excluded via `.gitignore`  
 - Do NOT commit API keys to GitHub  
+
